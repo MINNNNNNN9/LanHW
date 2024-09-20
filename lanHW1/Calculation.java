@@ -5,7 +5,7 @@ public class Calculation {
     private static final double RATE2 = 1.2;
     private static final double RATE3 = 1.6;     
      
-    // double TimeMoney1 = TIME_MONEY * 0.8, TimeMoney2 = TIME_MONEY * 1.2, TimeMoney3 = TIME_MONEY * 1.6;
+    //double TimeMoney1 = TIME_MONEY * 0.8, TimeMoney2 = TIME_MONEY * 1.2, TimeMoney3 = TIME_MONEY * 1.6;
     public int calculateSalary(int hours) {
         if (hours < 0) {
             throw new IllegalArgumentException("輸入錯誤，工時不該為負數。");
